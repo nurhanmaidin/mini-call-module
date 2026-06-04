@@ -10,6 +10,7 @@ The project consists of:
 * Flask Backend API
 * Database files
 * Deployment and release assets
+* Demo video and application screenshots
 
 ---
 
@@ -24,6 +25,9 @@ mini-call-module/
 │   ├── API/
 │   ├── Database/
 │   └── Call Module App Release/
+│
+├── demo-video/           # Project demonstration video
+├── screenshots/          # Application screenshots
 │
 ├── setup_backend.bat     # First-time backend setup
 ├── start_backend.bat     # Start Flask backend
@@ -208,17 +212,25 @@ This folder contains the pre-built Windows executable (`.exe`) that can be used 
 
 ## Demo Video
 
-Demo video will be added here.
+A demonstration video of the application is available in:
 
-(TODO)
+```text
+demo-video/
+```
+
+The video showcases the application's main features, workflow, and functionality.
 
 ---
 
 ## Screenshots
 
-Application screenshots will be added here.
+Application screenshots are available in:
 
-(TODO)
+```text
+screenshots/
+```
+
+These screenshots provide a visual overview of the application's user interface and key features.
 
 ---
 
@@ -229,4 +241,5 @@ Application screenshots will be added here.
 * If the backend is not running, API requests from the application will fail.
 * If `start_backend.bat` does not work on your machine, start the backend manually using the commands provided in the **Start Backend** section.
 * Flutter source code is included for review and development purposes.
+* Demo materials are included in the `demo-video/` and `screenshots/` folders.
 * This repository contains both source code and deployment assets for easier evaluation and testing.
