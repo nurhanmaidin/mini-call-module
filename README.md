@@ -10,7 +10,7 @@ The project consists of:
 * Flask Backend API
 * Database files
 * Deployment and release assets
-* Demo video and application screenshots
+* Application screenshots
 
 ---
 
@@ -26,7 +26,6 @@ mini-call-module/
 │   ├── Database/
 │   └── Call Module App Release/
 │
-├── demo-video/           # Project demonstration video
 ├── screenshots/          # Application screenshots
 │
 ├── setup_backend.bat     # First-time backend setup
@@ -207,18 +206,6 @@ deployment/Call Module App Release/
 ```
 
 This folder contains the pre-built Windows executable (`.exe`) that can be used to run the application without installing Flutter.
-
----
-
-## Demo Video
-
-A demonstration video of the application is available in:
-
-```text
-demo-video/
-```
-
-The video showcases the application's main features, workflow, and functionality.
 
 ---
 
