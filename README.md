@@ -228,5 +228,4 @@ These screenshots provide a visual overview of the application's user interface 
 * If the backend is not running, API requests from the application will fail.
 * If `start_backend.bat` does not work on your machine, start the backend manually using the commands provided in the **Start Backend** section.
 * Flutter source code is included for review and development purposes.
-* Demo materials are included in the `demo-video/` and `screenshots/` folders.
 * This repository contains both source code and deployment assets for easier evaluation and testing.
