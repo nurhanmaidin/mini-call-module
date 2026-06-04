@@ -89,6 +89,37 @@ http://localhost:5000
 
 Keep this terminal window open while using the application.
 
+### If `start_backend.bat` Does Not Work
+
+You can start the backend manually using Command Prompt:
+
+1. Open Command Prompt.
+2. Navigate to the backend folder:
+
+```bash
+cd backend
+```
+
+3. Activate the virtual environment:
+
+```bash
+venv\Scripts\activate
+```
+
+4. Start the Flask application:
+
+```bash
+python app.py
+```
+
+If the application starts successfully, you should see Flask running on:
+
+```text
+http://localhost:5000
+```
+
+Keep the terminal window open while using the application.
+
 ---
 
 ## Frontend Setup
@@ -111,15 +142,17 @@ Open the provided `.exe` file to launch the application.
 start_backend.bat
 ```
 
-2. Wait for the backend to start successfully.
+2. If the batch file does not work, follow the manual backend startup instructions above.
 
-3. Navigate to:
+3. Wait for the backend to start successfully.
+
+4. Navigate to:
 
 ```text
 deployment/Call Module App Release/
 ```
 
-4. Launch the provided `.exe` file.
+5. Launch the provided `.exe` file.
 
 No Flutter SDK installation is required to run the application using the provided release build.
 
@@ -194,5 +227,6 @@ Application screenshots will be added here.
 * Backend must be started before launching the application.
 * The provided Windows executable can be found in `deployment/Call Module App Release/`.
 * If the backend is not running, API requests from the application will fail.
+* If `start_backend.bat` does not work on your machine, start the backend manually using the commands provided in the **Start Backend** section.
 * Flutter source code is included for review and development purposes.
 * This repository contains both source code and deployment assets for easier evaluation and testing.
