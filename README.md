@@ -50,9 +50,7 @@ During installation:
 
 ### Frontend
 
-Install Flutter SDK:
-
-https://flutter.dev/docs/get-started/install
+No Flutter installation is required for evaluation purposes if you use the provided release build.
 
 ---
 
@@ -95,6 +93,44 @@ Keep this terminal window open while using the application.
 
 ## Frontend Setup
 
+A pre-built Windows release of the application is already provided.
+
+Navigate to:
+
+```text
+deployment/Call Module App Release/
+```
+
+Open the provided `.exe` file to launch the application.
+
+### Recommended Steps for Reviewers
+
+1. Run:
+
+```bash
+start_backend.bat
+```
+
+2. Wait for the backend to start successfully.
+
+3. Navigate to:
+
+```text
+deployment/Call Module App Release/
+```
+
+4. Launch the provided `.exe` file.
+
+No Flutter SDK installation is required to run the application using the provided release build.
+
+### For Developers (Optional)
+
+If you would like to run the Flutter source code instead of the release build:
+
+Install Flutter SDK:
+
+https://flutter.dev/docs/get-started/install
+
 Navigate to:
 
 ```text
@@ -133,6 +169,8 @@ Application release files can be found in:
 deployment/Call Module App Release/
 ```
 
+This folder contains the pre-built Windows executable (`.exe`) that can be used to run the application without installing Flutter.
+
 ---
 
 ## Demo Video
@@ -153,9 +191,8 @@ Application screenshots will be added here.
 
 ## Notes
 
-* Backend must be started before launching the frontend.
-* If the backend is not running, API requests from the frontend will fail.
-* This repository contains both source code and deployment assets for easier review.
-
-```
-```
+* Backend must be started before launching the application.
+* The provided Windows executable can be found in `deployment/Call Module App Release/`.
+* If the backend is not running, API requests from the application will fail.
+* Flutter source code is included for review and development purposes.
+* This repository contains both source code and deployment assets for easier evaluation and testing.
